@@ -125,6 +125,7 @@ function tvRP.updatePos(x, y, z)
             }
         end
     end
+end
 
 
 function tvRP.updateWeapons(weapons)
@@ -233,6 +234,5 @@ AddEventHandler('ERP:StoreWeaponsRequest', function(source)
         else
             vRPclient.notify(player,{"~o~Your weapons are already being stored hmm..."})
         end
-	end)
+    end)
 end)
-
